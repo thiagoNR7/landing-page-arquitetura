@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family= Inter:wght@300;400 & display =swap");
+@import url("https://fonts.googleapis.com/css2?family= Raleway :wght@600 & display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+#menusuperior {
+  background-color: #303030;
+  display: flex;
+  height: 350px;
+  color: white;
+}
+
+#titulo-superior {
+  margin: 120px 0px 40px 65px;
+  font-size: 60px;
+}
+#texto-superior {
+  position: absolute;
+  margin: 220px 0px 10px 65px;
+  font-size: 20px;
+}
+
+/* numeros informativos*/
+
+#numeros-informativos {
+  background-color: #F9F9F9;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  border: 1 solid black;
+}
+.textoinformativo {
+  margin: 50px;
+  display: flex;
+  padding: 25px;
+}
+
+/*texto principal*/
+#maior {
+  font-size: 40px;
+  text-transform: uppercase;
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  margin-top: 30px;
+}
+#texto-principal {
+  margin: 190px 40px 17px 70px;
+  font-size: 25px;
+}
+#secao-principal {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #F5F5F5;;
+}
+#foto {
+  width: 510;
+  height: 605;
+  margin: 40px 30px 40px 35px;
+}
+/*formulario*/
+
+#formulario {
+  background-color: #303030;
+  color: #dcdada;
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+}
+#texto-formulario {
+  text-align: center;
+  margin-top: 35px;
+}
+#formulario-principal {
+  margin-top: 45px;
+  margin-left: 550px;
+}
+input {
+  margin: 20px 45px 20px 0px;
+  height: 53px;
+  width: 450px;
+  border-radius: 10px;
+  border: 0%;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+button {
+  margin: 15px 0px 70px 100px;
+  height: 73px;
+  width: 250px;
+  border-radius: 10px;
+  background: #c07212;
+  border: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  color: #dcdada;
+  cursor: pointer;
+}
+button:hover {
+  transform: translatey(-9);
+  transition: 0.6s;
+  background-color: rgb(255, 255, 255);
+  color: #c07212;
+  box-shadow: 0px 15px 20px black;
+}
